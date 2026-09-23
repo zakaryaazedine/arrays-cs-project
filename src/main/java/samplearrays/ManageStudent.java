@@ -149,7 +149,7 @@ public class ManageStudent {
 
         System.out.println("Names of students class by class : ");
         for(int i=0;i<classx.length;i++){
-            System.out.println("Class "+i+1);
+            System.out.println("Class "+(i+1));
             for (int j=0;j<classx[0].length;j++) System.out.println(classx[i][j]);
         }
 
